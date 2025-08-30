@@ -1,0 +1,5 @@
+pytest
+requests
+selenium
+applitools
+allure-pytest

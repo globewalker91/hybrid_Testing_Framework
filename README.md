@@ -14,3 +14,5 @@ This project demonstrates **combined API + UI testing** using [Restful Booker](h
 pip install -r requirements.txt
 pytest --alluredir=reports
 
+Generate report:
+allure serve reports

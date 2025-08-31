@@ -1,6 +1,7 @@
 pytest
 requests
 selenium
-applitools.selenium
+applitools
 allure-pytest
+
 

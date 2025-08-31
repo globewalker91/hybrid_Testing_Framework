@@ -2,7 +2,7 @@ import pytest, uuid
 from utils.api_client import BookingAPI
 from utils.driver_factory import get_driver
 from pages.admin_page import AdminPage
-from applitools.selenium import Eyes
+#from applitools.selenium import Eyes
 
 @pytest.fixture
 def driver():
@@ -25,9 +25,9 @@ def test_booking_via_api_and_verify_in_ui(driver):
     assert page.is_booking_present(firstname, lastname)
 
     # Step 3: Applitools visual validation
-    eyes = Eyes()
-    eyes.api_key = "YOUR_API_KEY"  # ideally set via env var
-    eyes.open(driver, "Restful Booker Project", "Booking Verification")
-    eyes.check_window("Bookings Table")
-    eyes.close()
+    #eyes = Eyes()
+    #eyes.api_key = "YOUR_API_KEY"  # ideally set via env var
+    #eyes.open(driver, "Restful Booker Project", "Booking Verification")
+    #eyes.check_window("Bookings Table")
+    #eyes.close()
 

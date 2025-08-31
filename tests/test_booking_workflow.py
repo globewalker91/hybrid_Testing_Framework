@@ -31,3 +31,4 @@ def test_booking_via_api_and_verify_in_ui(driver):
     eyes.check_window("Bookings Table")
     eyes.close()
 
+#Step 4: Kick off CICD
